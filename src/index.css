@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+@layer components {
+  .card {
+    @apply bg-white rounded-2xl  p-6 border border-gray-100/60 shadow-[0_2px_12px_-2px_rgba(0,0,0,0.04)];
+  }
+  .card-btn {
+    @apply inline-flex items-center gap-1.5 text-xs font-medium text-slate-600 bg-slate-100/80 px-3 py-1.5 rounded-lg hover:bg-slate-200 hover:text-slate-900 transition-all cursor-pointer;
+  }
+  .add-btn {
+    @apply text-xs md:text-sm font-medium text-emerald-800 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200/60 px-3 py-1.5 rounded-lg transition-colors duration-200 cursor-pointer;
+  }
+  .add-btn-fill {
+    @apply bg-purple-600 hover:bg-purple-700 text-white font-medium text-sm py-2 px-5 rounded-lg flex items-center justify-center gap-2 transition-colors duration-200 shadow-sm cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed;
+  }
+}
+body{
+  font-family: "Outfit", sans-serif;
+  background-color: #fcfbfc;
+  overflow-x: hidden;
+}
+
+.btn-primary{
+  background-color: oklch(0.36 0.18 303.9);
+  color :white
+}
+.text-primary{
+  color: var(--color-purple-800);
+}
+/* Hide Microsoft Edge / IE password reveal icon */
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+/* Hide WebKit (Chrome, Safari, Edge) auto-fill / extra controls if needed */
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-credentials-auto-fill-button {
+  visibility: hidden;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}
