@@ -101,7 +101,7 @@ src
 
 ```bash
 git clone https://github.com/momen-tarek111/Money_Manager_Server.git
-cd Money Manager App
+cd Money-Manager-App
 ```
 
 ### 2. Install dependencies
