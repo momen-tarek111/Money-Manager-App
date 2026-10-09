@@ -19,7 +19,6 @@ function Login() {
   const handleSubmit=async(e)=>{
     e.preventDefault();
     setIsLoading(true)
-
     if(!password.trim()){
         setError("Please enter your password")
         setIsLoading(false)
@@ -31,11 +30,13 @@ function Login() {
         return;
     }
     setError("")
+
     try {
         const response=await axiosConfig.post(API_ENDPOINTS.LOGIN,{
             email,
             password
         })
+        
         const {token,user}=response.data;
         if(token){
           localStorage.setItem("token",token);
@@ -44,6 +45,7 @@ function Login() {
         }
     } catch (error) {
         if(error.response&&error.response.data.message){
+          
           setError(error.response.data.message)
         }
         else{

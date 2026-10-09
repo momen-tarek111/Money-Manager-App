@@ -15,7 +15,7 @@ Built with **React**, **Vite** and **Tailwind CSS**
 
 ### 🎬 [▶ Watch the Full Demo Video](YOUR_GOOGLE_DRIVE_VIDEO_LINK)
 
-[Backend Repo](YOUR_BACKEND_REPO_LINK) · [Demo Video](YOUR_GOOGLE_DRIVE_VIDEO_LINK) · [Report a Bug](../../issues)
+[Backend Repo](https://github.com/momen-tarek111/Money_Manager_Server.git) · [Demo Video](YOUR_GOOGLE_DRIVE_VIDEO_LINK) · [Report a Bug](../../issues)
 
 </div>
 
@@ -27,7 +27,7 @@ Built with **React**, **Vite** and **Tailwind CSS**
 
 This repository contains the **React client**. It communicates with a secured Spring Boot API.
 
-> ⚙️ The REST API lives in a separate repository: **[Money Manager — Backend](YOUR_BACKEND_REPO_LINK)**
+> ⚙️ The REST API lives in a separate repository: **[Money Manager — Backend](https://github.com/momen-tarek111/Money_Manager_Server.git)**
 
 ---
 
@@ -87,8 +87,6 @@ src
 └── App.jsx
 ```
 
-> Adjust folder names to match your actual structure.
-
 ---
 
 ## 🚀 Getting Started
@@ -97,13 +95,13 @@ src
 
 - Node.js 18+
 - npm or yarn
-- The [backend API](YOUR_BACKEND_REPO_LINK) running locally
+- The [backend API](https://github.com/momen-tarek111/Money_Manager_Server.git) running locally
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_FRONTEND_REPO_LINK
-cd money-manager-frontend
+git clone https://github.com/momen-tarek111/Money_Manager_Server.git
+cd Money Manager App
 ```
 
 ### 2. Install dependencies
