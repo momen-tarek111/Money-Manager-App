@@ -13,9 +13,9 @@ Built with **React**, **Vite** and **Tailwind CSS**
 ![Recharts](https://img.shields.io/badge/Recharts-Charts-22B5BF?style=for-the-badge&logo=react&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-### 🎬 [▶ Watch the Full Demo Video](YOUR_GOOGLE_DRIVE_VIDEO_LINK)
+### 🎬 [▶ Watch the Full Demo Video](https://drive.google.com/file/d/1olxFyz-vF0IOY_kU3CUsPkTuShyTrhNa/view?usp=sharing)
 
-[Backend Repo](https://github.com/momen-tarek111/Money_Manager_Server.git) · [Demo Video](YOUR_GOOGLE_DRIVE_VIDEO_LINK) · [Report a Bug](../../issues)
+[Backend Repo](https://github.com/momen-tarek111/Money_Manager_Server.git) · [Demo Video](https://drive.google.com/file/d/1olxFyz-vF0IOY_kU3CUsPkTuShyTrhNa/view?usp=sharing) · [Report a Bug](../../issues)
 
 </div>
 
@@ -33,7 +33,7 @@ This repository contains the **React client**. It communicates with a secured Sp
 
 ## 🎬 Demo
 
-[![Watch the demo](https://img.shields.io/badge/▶_Watch_Demo-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](YOUR_GOOGLE_DRIVE_VIDEO_LINK)
+[![Watch the demo](https://img.shields.io/badge/▶_Watch_Demo-Google_Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1olxFyz-vF0IOY_kU3CUsPkTuShyTrhNa/view?usp=sharing)
 
 > 💡 Add screenshots here for a stronger first impression:
 >
